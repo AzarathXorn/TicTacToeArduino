@@ -1,3 +1,4 @@
+
 //LED instantiations
 const int ledPin13 = 13;
 const int ledPin12 = 12;
@@ -252,6 +253,14 @@ void makeChoice(int x,int r,int c){
   }
 }// end function makeChoice
 
+
+// function to play for the computer
+// plays perfectly or near perfectly
+// always wins or draws
+
+// based on Collin Bardini's Tic Tac Toe 
+// and
+// https://www.quora.com/Is-there-a-way-to-never-lose-at-Tic-Tac-Toe
 void computer(int grid[][3], int turn, int moves){
     if(grid[1][1] == -1){
         // go for the middle if it's open
@@ -417,7 +426,8 @@ void computer(int grid[][3], int turn, int moves){
     } 
      
 }
-// end ai
+// end ai function
+
 
 // main loop
 void loop() {
