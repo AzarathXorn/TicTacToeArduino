@@ -1,7 +1,7 @@
 # TicTacToeArduino
 Tic Tac Toe game on Arduino for CISP310
 
-Code written by William Schultz and Spencer Van Dyke
+Code written by William Schultz and Spencer Van Dyke. 
 Powerpoint presentation created by William Schultz, Spencer Van Dyke, Varshini Pabba, and Justin Monnot
 
 This is the ino file for a tic tac toe game using Arduino. 
